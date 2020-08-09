@@ -1,0 +1,363 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ol{
+  list-style:none;
+  overflow:hidden;
+  border:1px solid #dedede;
+  margin:5px;
+  padding:5px;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+  max-width: 100%;
+}
+
+
+#footer {
+  display:flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  justify-content: space-between;
+ 
+}
+body {
+  font-family: arial;
+  font-style: 1rem;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.large {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: #17a2b8;
+}
+
+.text-secondary {
+color: #f4f4f4}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.alert.alert-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.alert.alert-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.alert.alert-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.alert.alert-light {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+  border: #ccc 1px solid;
+}
+
+.bg-dark {
+  background-color: #003322;
+  color: #223344;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #333;
+  border: #ccc 80px solid;
+}
+
+.round-img {
+  display: inline;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.line {
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.badge.badge-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.badge.badge-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.badge.badge-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.badge.badge-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+ 
+.btn.btn-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background: #1ab6cf;
+}
+
+.btn.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.btn.btn-dark:hover {
+  background: #3f474e;
+}
+
+.btn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.btn-success:hover {
+  background: #2dbc4e;
+}
+ 
+.btn.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn.btn-danger:hover {
+  background: #e04b59;
+}
+
+.btn.btn-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background: #1ab6cf;
+}
+
+.btn:hover {
+  background: #626d78;
+  color: white;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  background-attachment: fixed;
+  overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+.table th, .table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th:not(:last-child) {
+  background-color: #f4f4f4;
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+
+.form-text {
+  display: block;
+  margin: 0.5rem 0;
+  color: #888;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="date"],
+.form input[type="email"],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 80px solid #ccc;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 1rem;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~ */
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding:2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}

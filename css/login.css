@@ -1,0 +1,94 @@
+.landing2 {
+  position: relative;
+  background: url(./../img/zoom-backgrounds-00014.jpg) no-repeat center center/cover;
+  height: 100vh;
+} 
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+}
+
+.cont_in{
+   background-color: rgba(255, 255, 255, 0.20);
+   margin: 50px;
+   flex: 45%;
+   max-width: 45%;
+   border-radius: 1px;
+}
+
+ .cont_in .text-sup{
+     color: #f4f4f4;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+ .cont_in form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+form input{
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+form .boton{
+    margin: 5px;
+    padding: 10px;
+}
+
+ .cont_in .separador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .cont_in .separador .row{
+    background-color: rgb(219, 219, 219);
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1px;
+    width: 33%;
+    max-width: 33%;
+    position: relative;
+    top: .45em;
+}
+
+
+ .cont_in .separador .circle{
+    color: rgb(219, 219, 219);
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+ .cont_in .reg{
+     color: #f4f4f4;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+ .cont_in .reg p{
+    margin: 15px;
+    text-align: center;
+}
+
+ .cont_in .reg a{
+    color: #17a2b8  ;
+}

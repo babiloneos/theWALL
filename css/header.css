@@ -1,0 +1,101 @@
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  object-position: right;
+  text-align: right;
+  overflow: visible;
+
+}
+
+.navbar img{
+  width: 60px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+
+}
+.navbar-brand{
+  text-align: right;
+  object-position: right;
+  text-align: right;}
+
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  position: ;
+  object-position: right !important;
+  text-align: right;
+  justify-content: right;
+  display: flex;
+  object-position: right;
+  text-align: right;
+}
+.navbar a:hover {
+  color: #ccc;
+}
+
+/* Searchbar */
+
+.search {
+  width: 40%;
+  flex-direction: row;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  height: 36px;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Brands";
+  content: "\f004";
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

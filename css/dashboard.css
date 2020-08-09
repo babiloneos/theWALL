@@ -1,0 +1,166 @@
+.dashboard .botonimagen{
+    /*background: url(../img/photo.png) no-repeat;
+    cursor: pointer*/
+    margin: 5px;
+    padding: 5px;
+}
+
+.dashboard .landing {
+  /* position: absolute; */
+  background: url(./../img/zoom-backgrounds-00013.jpg) no-repeat center center/cover;
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  
+}
+
+.dashboard .landing-inner {
+  color: #fff;
+  height: 100%;
+    position: relative;
+    top: 72px;
+  
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  
+}
+
+.dashboard .navbar img{
+    width: 35px;
+}
+
+.dashboard .PagCont{
+    overflow: auto;
+    max-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+
+form{
+
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    width: 80%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form textarea{
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #17a2b8 ;
+    border-width: 3px;
+}
+
+form .options{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+form .options .imgBtn{
+    width: 30px;
+    height: auto;
+}
+
+form .options .publBtn{
+    background: #17a2b8;
+    padding: 10px;
+    border: 0;
+}
+
+
+/* Estilos del post */
+
+.wall{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+    align-items: center;
+    
+}
+
+.wall .post{
+
+    flex: 50%;
+    max-width: 75%;
+    min-width: 75%;
+    padding: 0 4px;
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    margin-top: 10px;
+}
+
+.post .profPic{
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    margin: 10px;
+}
+
+.post .contPost{
+    flex-basis: 0;
+    justify-content: stretch;
+    flex-grow: 1;
+    margin: 0 5px;
+    text-align: justify;
+}
+
+.post .profPic img{
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.post .contPost .usr{
+    box-sizing: border-box;
+}
+
+.post .contPost .textPost{
+    line-height: 1.4;
+    margin: 1px 0 15px;
+}
+
+.post .contPost i{
+    padding: 5px;
+}
+
+.post .contPost .likeBtn{
+    border-radius: 5px;
+    border-color: #17a2b8;
+    background-color: #17a2b8;
+}
+
+.srcBtn{
+    background: #17a2b8;
+    padding: 10px;
+    border: 0;
+    align-items: flex-end;
+}

@@ -1,0 +1,114 @@
+.people .botonimagen{
+    /*background: url(../img/photo.png) no-repeat;
+    cursor: pointer*/
+    margin: 5px;
+    padding: 5px;
+}
+
+.people .landing {
+  /* position: absolute; */
+  background: url(./../img/zoom-backgrounds-00013.jpg) no-repeat center center/cover;
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  
+}
+
+.people .landing-inner {
+  color: #fff;
+  height: 100%;
+    position: relative;
+    top: 72px;
+  
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  justify-content: center;
+  
+}
+
+.people .navbar img{
+    width: 35px;
+}
+
+.people .empty{
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.resultados{
+    display: flex;
+    padding: 0 4px;
+    justify-content: center;
+    flex-flow: row wrap;
+    overflow: auto;
+    max-height: 100%;
+}
+
+.resultados .person{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+
+    flex: 40%;
+    max-width: 40%;
+    width: 40%;
+    padding: 0 4px;
+
+    margin: 15px 15px;
+}
+
+.person .profPic{
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    margin: 10px;
+}
+
+.person .profPic img{
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.person .description{
+    width: 300px;
+    padding-left: 10px ;
+}
+
+.person .description .usr_name{
+    box-sizing: border-box;
+}
+
+.person .description .usr{
+    line-height: 1.4;
+    margin: 1px 0 15px;
+}
+
+.person .follow{
+    width: 120px;
+}
+
+.followButton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.unfollowButton{
+    background-color: #505250;
+}

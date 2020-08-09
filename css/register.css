@@ -1,0 +1,137 @@
+.logoMed{
+    width: 100px;
+    margin: 25px;
+}
+
+.x-large {
+    line-height: 1.2;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.lead {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   color: #f4f4f4;
+ 
+}
+
+.landing {
+  position: relative;
+  background: url(./../img/zoom-backgrounds-00005.jpg) no-repeat center center/cover;
+  height: 100vh;
+  
+}
+
+.landing-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: flex-start;
+  text-align: center;
+}
+
+.regis {
+    background-image: url('/Imag/blueWall.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+}
+
+.regis .cont_in{
+    background-color: #fff;
+    margin: 50px;
+    flex: 33%;
+    max-width: 33%;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+}
+
+.regis .cont_in .logo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.regis .cont_in form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+form input{
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+form .boton{
+    background: #00B921;
+    coloR: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.regis .cont_in .separador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.regis .cont_in .separador .row{
+    background-color: rgb(219, 219, 219);
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1px;
+    width: 33%;
+    max-width: 33%;
+    position: relative;
+    top: .45em;
+}
+
+
+.regis .cont_in .separador .circle{
+    color: rgb(219, 219, 219);
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.regis .cont_in .reg{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.regis .cont_in .reg p{
+    margin: 15px;
+    text-align: center;
+}
+
+.regis .cont_in .reg a{
+    color: #00B921  ;
+}

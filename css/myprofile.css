@@ -1,0 +1,104 @@
+.navbar img{
+    width: 35px;
+}
+
+.landing {
+  background: url(./../img/zoom-backgrounds-00009.jpg) no-repeat center center/cover;
+  height: 100vh;
+  min-height: 100%;
+  position: relative;}
+
+
+.landing-inner {
+    color: #fff;
+  	height: 100%;
+    position: relative;
+    top: 72px;
+  	width: 100%;
+  	height: 90%;
+  	margin: auto;
+  	overflow: auto;
+	max-height: 100%;	
+	display: flex;  
+  	flex-flow: row wrap;
+}
+
+.detalles{
+	width: 30%;
+	padding: 20px;
+	display: flex;  
+	flex-flow: column wrap;
+	justify-content: flex-start;
+}
+
+.detalles .perfil{
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.detalles .perfil .profPic{
+	margin: auto;
+	width: 35%;
+}
+
+.detalles .perfil .profPic img{
+    overflow: hidden;
+    border-radius: 50%;	
+}
+
+.detalles .siguiendo{
+	width: 100%;
+}
+
+.detalles .siguiendo .person{
+	padding: 20px 20px ;
+	display: flex;
+}
+
+.detalles .editProfile{
+	margin: auto;
+}
+
+.detalles .editProfile .editProfBtn{
+	background: #00B921;
+    coloR: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.publicaciones{
+	width: 70%;
+	padding: 20px;
+}
+
+.publicaciones .publicar{
+	width: 75%;
+	margin: auto;
+}
+.publicaciones .publicar label{
+	width: 80%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.publicaciones .wall .post{
+	max-width: none;
+	padding: 0 50px;
+}
+
+.publicaciones .wall .post .downPost{
+	display: flex;
+	flex: row wrap;
+	justify-content: space-between;
+}
+
+.publicaciones .wall .post .downPost .borrar{
+	color: #fff;
+}
